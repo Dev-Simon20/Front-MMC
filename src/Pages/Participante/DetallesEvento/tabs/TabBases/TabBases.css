@@ -1,0 +1,170 @@
+
+.contenBasesEvento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.contenIntro{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #535353;
+
+}
+
+.contenIntro img{
+    width: 45%;
+}
+.contenIntro article{
+    width: 45%;
+    text-align: justify;
+    font-family: sansita;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contenAcordiones{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.singleAcordion{
+    width: 100%;
+}
+
+
+.acordionHeader{
+    font-size: 22px;
+    font-family: sansita;
+    color: #45204b;
+    margin-left: 2%;
+    }
+.contenDetallesAcordion{
+    padding: 0 20px ;
+ }
+ .contenMarineras{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sansita;
+    flex-wrap: wrap;
+ }
+
+ #relacion{
+    text-align: start;
+ }
+ #relacion ul li{
+    margin-left: 20px;
+    color: #535353;
+ }
+ #relacionFinales{
+    text-align: start;
+ }
+ #relacionFinales ul li{
+    margin-left: 20px;
+    color: #535353;
+ }
+ 
+
+.primerOrden{
+    font-family: sansita;
+    color: #535353;
+    font-size: 18px;
+    text-align: start;
+    margin-left: 2%;
+}
+#modalNoveles{
+    text-align: start;
+    font-family: sansita;
+    color: #535353;
+    font-size: 18px;
+    margin-left: 2%;
+}
+#modalNacional{
+    text-align: start;
+    margin-left: 2%;
+    font-family: sansita;
+    color: #535353;
+    font-size: 18px;
+}
+.ulRow{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.segundoOrden{
+    font-family: sansita;
+    text-align: start; 
+    margin-left: 34px;   
+    color: #535353;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.segundoOrden b{
+    margin-right: 10px;
+}
+.tercerOrden{
+    font-family: sansita;
+    text-align: start; 
+    margin-left: 15px;   
+    color: rgb(83, 81, 81);
+}
+
+
+
+.contenPremiosCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    row-gap: 20px;
+}
+.premios-card {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 5px rgba(82, 28, 28, 0.1);
+    text-align: center;
+    width: 40%;
+    min-width: 280px;
+    background-color: white;
+
+  }
+  .premios-card h3{    
+    text-align: start;
+    font-family: sansita;
+    margin-bottom: 8px;
+      
+  }
+  .premios-card ul{
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    font-family: sansita;
+    color: rgb(141, 139, 139);
+    line-height: 1.2;
+
+  }
+  .premios-card ul li{
+    margin-bottom: 5px;
+    line-height: 1.2;
+  }
+  .premios-card ul span{
+    color: rgb(79, 78, 78);
+    margin-right: 5px;
+  }
+  .premios-card ul b{
+    color: rgb(27, 26, 26)
+  }
+
+  .css-1086bdv-MuiPaper-root-MuiAccordion-root {
+    background-color: #f1f5f9 !important;
+
+  }

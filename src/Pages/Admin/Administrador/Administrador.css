@@ -1,0 +1,65 @@
+
+.optionMenu{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.active-Link{
+    color: rgb(0, 0, 0);
+}
+.admin-menu{
+    display: flex;
+    position: relative;
+    min-height: 150vh;
+}
+nav{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 20%;
+    height: 100vh;
+    background-color: #301b33;
+
+}
+.bodyAdmin{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    height: 100%;
+    width: 80%;
+}  
+.allAc{
+    margin: 20px 0;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 40px;
+    color: aliceblue;
+    font-family: sansita;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 90%;
+    align-self: center;
+    background-color: #45204b;
+}
+.men-i{
+    padding-right: 5px;
+}
+
+.sesion-out{
+    all: initial;
+    background-color: #eb2715d1;
+    width: 200px;
+    align-self: center;
+    height: 40px;
+    font-size: 18px;
+    font-family: sansita;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,117 @@
+.contentTabDetalles {
+   width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1300px;
+}
+.contenTextos {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-left: 2%;
+   width: 50%;
+   background-color: #f1f5f9;
+   padding: 30px;
+   row-gap: 20px;
+   border-radius: 16px;
+   min-width: 250px;
+   max-width: 700px;
+}
+
+.contenTextos section {
+   width: 90%;
+   text-align: start;
+   font-family: sansita;
+   font-size: 18px;
+   overflow: hidden;
+}
+.contenTextos section div {
+   display: flex;
+   align-items: center;
+   user-select: none;
+   height: 30px;
+}
+.contenTextos section div i {
+   margin-top: 2px;
+}
+.contenTextos section div p:nth-child(2) {
+   color: #45204b;
+   line-height: 1;
+   margin-left: 15px;
+   display: inline-block;
+}
+.contenTextos section div p:nth-child(3) {
+   margin-left: 15px;
+   color: #535353;
+   line-height: 1;
+}
+
+.afiche_conten {
+   width: 45%;
+   min-width: 290px;
+   max-width: 700px;
+
+}
+.afiche_conten img {
+   width: 100%;
+   object-fit: contain;
+}
+
+
+
+
+.icon-calendar {
+   margin-left: 15px;
+   color: #e53d5e;
+   cursor: pointer;
+}
+.icon-calendar:hover {
+   color: #ea0f3b ;
+}
+
+.linkwindow {
+   color: #e53d5e !important;
+   cursor: pointer;
+}
+.linkwindow:hover {
+   color: #ea0f3b !important;
+}
+#conten_redes_detalles{
+   display: flex;
+   column-gap: 10px;
+   margin-left: 15px;
+}
+#conten_redes_detalles{
+   cursor: pointer;
+   font-size: 25px;
+}
+
+@media screen and (max-width: 730px) {
+   .contentTabDetalles {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 40px;
+   }
+   .contenTextos {
+      width: 90%;
+      padding: 0;
+      padding-top: 10px;
+      /* min-width: 320px; */
+   }
+   .afiche_conten {
+      width: 90%;
+      min-width: min-content;
+      
+   }
+   .contenTextos section div p:nth-child(2) {
+      margin-left: 12px;
+      font-size: 15px;
+      
+   }
+   .contenTextos section div p:nth-child(3) {
+      margin-left: 12px;
+      font-size: 15px;
+   }
+   
+}

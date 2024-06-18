@@ -1,0 +1,93 @@
+.contenFormasPago{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 30px;
+}
+.contenListaMod{
+    width: 35%;
+    min-width: 270px;
+    text-align: start;
+    font-family: sansita;
+    background-color: #ede8e8;
+    padding: 8px 20px;
+    border-radius: 8px;
+
+}
+.contenListaMod ul{
+    padding-left: 20px;
+}
+.contenListaMod  h2{
+    color: #492558;
+    margin-bottom: 10px;
+    
+
+}
+.contenListaMod li{
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contenListaMod b{
+    width: 200px;
+    color: #492558;
+}
+.contenListaMod li p{
+    text-align: end;
+    width: 50px;
+}
+
+.contenInfoPago{
+    width: 35%;
+    font-family: sansita;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    min-width:280px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: #ede8e8;
+
+
+}
+.contenInfoPago h2{
+    color: #492558;
+    text-align: start;
+}
+
+.contenInfoPago div{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: start;
+}
+.contenInfoPago .FPnombre{
+    text-align: start;
+    color: #492558;
+}
+.contenInfoPago .FPnombre span{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3px;
+    text-align: start;
+}
+.contenInfoPago div h3{
+    color: #492558;
+}
+
+@media screen and (max-width: 750px) {  
+
+    .contenListaMod{
+        width: 90%;
+    }
+    .contenInfoPago{
+    width: 90%;
+    }
+}

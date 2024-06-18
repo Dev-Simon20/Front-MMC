@@ -1,0 +1,73 @@
+
+.contenRegistroEvento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    position: relative;
+}
+#contenAlertSu{
+    position: absolute;
+    top: -70px;
+    width: 60%;
+}
+
+.contenRegisterE{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    row-gap: 20px;
+    border-radius: 16px;
+    padding: 30px 20px;
+    border: 1px solid #45204b;
+    box-sizing: border-box;
+}
+.contenRegisterE h1{
+    color: #45204b;
+    font-family: sansita;
+    line-height: 1;
+    
+}
+.contenRegisterE h2{
+    color: #45204b;
+    font-family: sansita;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.contenRegisterE article{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contenRegisterE article .contenfText{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenRegisterE article .contengText{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttoConten{
+    display: flex;
+    justify-content: center;
+}
+#buttoConten div{
+    cursor: pointer;
+    width: 200px;
+    background-color: #45204b;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sansita;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+}

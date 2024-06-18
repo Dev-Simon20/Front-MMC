@@ -1,0 +1,75 @@
+
+
+.conten_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagContac{
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+    
+}
+.imagContac img{
+    width: 100%;
+}
+.imagContac p{
+    font-family: 'Roboto';
+    position: absolute;
+    font-size: 80px;
+    bottom: 10%;
+    right: 5%;
+    color: white;
+    
+}
+.conten_contacto_texto{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    font-family: sansita;
+    padding: 50px 0;
+}
+
+
+#contacto_text{
+    font-size: 35px;
+    margin-top: 20px;
+}
+#contacto_qs{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#contacto_qs span{
+    color: red;
+}
+
+.conten_contacto_texto article{
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    column-gap: 1%;
+}
+.conten_contacto_texto article section{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conten_contacto_texto article section p:first-child{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.conten_contacto_texto article section p:last-child{
+        color: rgb(162, 159, 159);
+}
+
+.txtred{
+    color: red !important;
+    font-size: 20px;
+}
