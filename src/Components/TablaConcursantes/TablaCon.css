@@ -1,0 +1,195 @@
+/* *{
+    outline: 1px solid blue;
+} */
+
+.conten-head-c{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 0 20px ;
+    background-color: #441f4a;
+    justify-content: space-between;
+}
+.subtitleTable{
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #E82558;
+}
+.titleTable{
+    line-height: 1;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.subtitleTable2{
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.conten-head-c-img{
+    width: 200px;
+    height: 100%;
+    object-fit: contain;
+}
+.conten-head-c-text{
+    display: flex;
+    width: 200px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.conten-selec-mod{
+    width: 250px;
+    border-radius: 20px;
+    background-color: #441f4a;
+}
+
+.exportPdf{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    background: #441f4a;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    height: 35px;
+    margin:  15px 0;
+    padding: 0 20px;
+}
+.exportPdf p{
+    font-size: 18px;
+}
+.exportPdf i{
+    font-size: 18px;
+}
+.conten-Table{
+    width: 100%;
+    min-width: 320px;
+    align-self: center;
+    font-family: sansita;
+    color: #441f4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.table-head{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 8px 0;
+}
+
+.h-num{
+
+    width: 5%;
+
+}
+.h-nom{
+    min-width: 150px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+.h-cat{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-est{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-Acc{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-i{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+.table-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.tr-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    /* font-size: 16px; */
+    /* font-size: 10px; */
+}
+.Npart{
+    width: 5%;
+}
+.nomPart{
+    min-width: 150px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.nomCat{
+    width: 13%;
+}
+.estReg{
+    width: 12%;
+}
+.accreg{
+    width: 12%;
+    display: flex;
+    row-gap: 5px;
+    justify-content: space-evenly;
+}
+
+hr{
+    width: 100%;
+    margin: 5px;
+}
+
+.delete-obj{
+    color:#E82558;
+    font-size: 20px;
+    
+}
+.edit-obj{
+    color: #fab005;
+    font-size: 20px;
+}
+.delete-obj:hover{
+    color:#e44872;
+}
+
+.edit-obj:hover{
+    color:#e8ba4e;
+}
+
+@media (max-width: 800px) {
+    .tr-table{
+        font-size: 10px;
+        padding: 8px 0;
+    }
+  }

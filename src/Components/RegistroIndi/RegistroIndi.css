@@ -1,0 +1,54 @@
+
+.registerindi{
+  display: flex;
+  justify-content: center;
+}
+.ri{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    min-width: 260px;
+    row-gap: 10px;
+}
+
+.conenTextField{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  top:-6px !important
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 0 !important;
+  padding: 0 !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  
+  color:#441f4a !important;
+}
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  color: #441f4a !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: #441f4a !important;
+  border-width: 3px !important;
+} */
+.css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #441f4a !important;
+}
+.css-p0rm37 {
+  top: -8px !important;
+}
+.css-1ald77x.Mui-focused {
+  color: #441f4a !important;
+}
+.css-1bn53lx.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #441f4a !important;
+}
+.css-1uvydh2 {
+  padding: 0 !important;
+  padding-left: 16px !important;
+}
+

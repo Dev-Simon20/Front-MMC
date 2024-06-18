@@ -1,0 +1,214 @@
+/* *{
+    outline: 1px solid salmon;
+} */
+
+.contenheader{
+    width: 100%;
+    background-color: #45204b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    position: fixed;
+    user-select: none;
+    z-index: 500;
+}
+.contenHeaderHeader{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1400px;
+}
+
+
+.logoheader{
+    width: 200px;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+
+.linkheader{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-content: center;
+   max-width: 480px;
+   font-family: 'Roboto';
+   letter-spacing: 0;
+   position: relative;
+   column-gap: 15px;
+   font-size: 16px;
+}
+
+
+
+
+
+.contenRedesheader{
+ width: 150px;
+ display: flex;
+ justify-content: space-evenly;
+ position: relative;
+
+}
+.contenRedesheader i{
+ color: white;
+ position: relative;
+ border-right: 2px solid #fdaf2b;
+ padding-right: 10px;
+}
+.contenRedesheader i:hover{
+ color: #c22343;
+}
+
+.linkheader .ps:hover{
+color: #c22343;
+}
+#ingresarButton{
+    padding: 6px 30px;
+    width: 180px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    background-color: #c22343;
+    box-sizing: border-box;
+    border: 2px solid #c22343;
+    cursor: pointer;
+}
+#ingresarButton:hover{
+    background-color: #b31434;
+    border: 2px solid #b31434;
+}
+#ingresarButton p{
+    line-height: 1;
+    margin-bottom: 3px;
+}
+#registrarButton{
+    width: 180px;
+    border: 2px solid #c22343;
+    padding: 6px 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#registrarButton p{
+    line-height: 1;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 750px) {
+    .contenheader{
+        height: 100px;
+        padding-bottom: 10px;
+
+    }
+    .contenHeaderHeader{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    .linkheader p{
+       font-size: 18px;
+      }
+      .contenRedesheader{
+        font-size: 16px;
+      }
+      .logoheader{
+        width: 180px;
+        margin-top: 10px;
+        cursor: none;
+    }
+    #ingresarButton{
+        width: 180px;
+        font-size: 8px;
+        height: 30px;
+    }
+    #ingresarButton p{
+        font-size: 14px;
+    }
+    #registrarButton{
+        width: 180px;
+        font-size: 8px;
+        height: 30px;
+    }
+    #registrarButton p{
+        font-size: 14px;
+
+    }
+
+    
+}
+
+ @media screen and (max-width: 400px) {
+    #ingresarButton{
+        width: 160px;
+        font-size: 6px;
+        height: 30px;
+        padding: 0;
+    }
+    #ingresarButton p{
+        font-size: 14px;
+    }
+    #registrarButton{
+        width: 160px;
+        font-size: 6px;
+        padding: 0;
+        height: 30px;
+    }
+    #registrarButton p{
+        font-size: 14px;
+
+    }
+
+}
+
+/* @media screen and (max-width: 550px) {
+    .contenheader{
+        padding: 4px;
+        flex-direction: column;
+    }
+    .logoheader{
+       width: 150px;
+   }
+   .linkheader{
+   width: 100%;
+   
+    }
+   .element{
+    font-size: 15px;
+   }
+   .element::before{
+    top: 23px;
+    right: 2.5%;
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 220px;
+    height: 2px;
+  }
+  .linkheader p{
+    font-size: 12px;
+  }
+
+
+}
+
+@media screen and (max-width: 394px) {
+    .element::before{
+        top: 32px;
+        right: 17%;
+        width: 160px;
+      }
+
+}
+ */

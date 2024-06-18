@@ -1,0 +1,24 @@
+
+.carrusel {
+    margin-top: 70px;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    overflow: hidden; /* Evita que la imagen desbordante se muestre */
+  }
+  
+  .imagen-carrusel {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out; /* Transición de opacidad suave */
+  }
+  
+  .fade-in {
+    opacity: 1; /* Imagen completamente visible */
+  }
+  
+  .fade-out {
+    opacity: 0; /* Imagen completamente invisible */
+  }
+  @media screen and (max-width: 750px) {
+    .carrusel {
+      margin-top: 100px;
+      }
+  }

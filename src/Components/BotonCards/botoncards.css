@@ -1,0 +1,25 @@
+
+.botoncards{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+    background-color: #45204b;
+    transition: background-color 0.3s ;
+    cursor: pointer;
+}
+.botoncards:hover{
+    background-color: #8f3d8f;
+}
+.Vd{
+    all: initial;
+    padding:  3px 15px;
+    color: white;
+    font-family: Sansita;
+    cursor: pointer;
+    
+}
